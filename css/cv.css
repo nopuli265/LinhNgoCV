@@ -276,7 +276,7 @@ h3 {
   text-align: center;
 }
 .section__title--services {
-  color: #7cb421;
+  color: #222105;
   position: relative;
 }
 
@@ -289,12 +289,20 @@ h3 {
   background: currentColor;
   opacity: 0.25;
 }
+h3 {
+  text-align: center;
+  color: #567b26fd;
+}
 .services {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 .service {
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 300px;
+  margin-right: 0 auto;
+  color: #25211afd;
+  font-size: 20px;
+  background-color: #e9f5db;
+  text-align: left;
 }
 @media (min-width: 800px) {
   .services {
@@ -358,13 +366,20 @@ h3 {
 }
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 .portfolio__item {
-  background: var(--clr-accent);
+  text-align: center;
+  padding-left: 50px;
+  text-decoration: None;
+  color: white;
   overflow: hidden;
 }
+
 .portfolio__img {
+  margin: 1.5em;
+  width: 500px;
+  height: 250px;
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
 .portfolio__item:focus {
